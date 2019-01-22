@@ -12,6 +12,7 @@ export default function() {
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link active" to="/">Home <span className="sr-only">(current)</span></Link>
                     <Link className="nav-item nav-link" to="/convert">Converter</Link>
+                    <Link className="nav-item nav-link" to="/registration">Registration</Link>
                 </div>
             </div>
         </nav>

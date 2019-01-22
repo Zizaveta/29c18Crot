@@ -1,0 +1,4 @@
+http://localhost:49235/api/Account/Register
+
+
+https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/enabling-cross-origin-requests-in-web-api
