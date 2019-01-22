@@ -29,7 +29,7 @@ class Registration extends React.Component {
             body: JSON.stringify(this.state)
             }).then((response) => response.json())
               .then((responseJson) => {
-            alert(responseJson)
+            console.log(responseJson)
             }).catch((error) => {
               console.error(error);
             });
