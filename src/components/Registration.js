@@ -27,10 +27,11 @@ class Registration extends React.Component {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify(this.state)
-            }).then((response) => response.json())
-              .then((responseJson) => {
-            console.log(responseJson)
-            }).catch((error) => {
+            }).then((response) => console.log(response)) //.json())
+           //   .then((responseJson) => {
+           // console.log(responseJson)
+            //})
+            .catch((error) => {
               console.error(error);
             });
             

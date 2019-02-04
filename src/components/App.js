@@ -1,10 +1,9 @@
 import React from 'react';
-import {Route, Switch, Link} from 'react-router-dom';
-import Converter from './Converter';
+import {Route, Switch} from 'react-router-dom';
 import Home from './Home';
 import NavigationBar from './NavigationBar';
 import Registration from './Registration';
-
+import Login from './Login';
 // import routes from '../routes';
 
 class App extends React.Component {
@@ -36,7 +35,7 @@ class App extends React.Component {
 
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route path='/convert' component={Converter} />
+                    <Route path='/login' component={Login} />
                     <Route path='/registration' component={Registration} />
                 </Switch>
             </div>
