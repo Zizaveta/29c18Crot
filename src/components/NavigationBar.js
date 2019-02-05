@@ -11,6 +11,8 @@ export default function() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link active" to="/">Home <span className="sr-only">(current)</span></Link>
+                    <Link className="nav-item nav-link" to="/allimages">All images</Link>
+                    <Link className="nav-item nav-link" to="/addimage">Add image</Link>
                     <Link className="nav-item nav-link" to="/login">Login</Link>
                     <Link className="nav-item nav-link" to="/registration">Registration</Link>
 
